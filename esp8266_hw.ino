@@ -3,8 +3,8 @@
 
 ESP8266WiFiMulti wifiMulti;     // Create an instance of the ESP8266WiFiMulti class, called 'wifiMulti'
 ESP8266WebServer server(80);  // Create server with port 80
-const char* ssid = "UPC4839964";  // Name of network
-const char* password = "FWJCQHHX";  //Password of local network
+const char* ssid = "your network";  // Name of network
+const char* password = "your password";  //Password of local network
 int LED = 5;  // Set GPIO pin as LED to facilitate code afterwards
 
 void setCrossOrigin() {
